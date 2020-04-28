@@ -1,6 +1,7 @@
 h1 {
   color:white;
   text-align:center;
+  font-size:80px;
 }
 
 p {
@@ -8,12 +9,31 @@ p {
   text-align:center;
 }
 
+p1 {
+  color:black;
+  text-align:center;
+  
+}
+
+divJ {
+  column-count:2;
+  
+}
+
+.jumbotron {
+  background:green;
+  
+}
+
 .container {
-  width:320px;
-  padding:10px;
-  margin:5px;
+  max-width:900px;
+  padding:50px;
+  margin:auto;
+  left:33%;
+  right:33%;
   background-color:#999999;
   text-align:center;
+  
 
 }
 
@@ -27,4 +47,7 @@ body {
   height: 100%;
 }
 
-
+.img {
+  margin:auto;
+  
+}
